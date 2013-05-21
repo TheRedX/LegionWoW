@@ -612,7 +612,6 @@ void AddSC_terokkar_forest();
 void AddSC_zangarmarsh();
 
 // Maelstrom
-void AddSC_kezan();
 
 // Events
 void AddSC_event_childrens_week();
@@ -1281,7 +1280,7 @@ void AddEventScripts()
 void AddMaelstromScripts()
 {
 #ifdef SCRIPTS
-    AddSC_kezan();
+
 #endif
 }
 
